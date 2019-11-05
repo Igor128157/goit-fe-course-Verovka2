@@ -1,0 +1,247 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit
+}
+
+body {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.page-header {
+    width: 1170px;
+}
+
+.site-logo {
+    float: left;
+    width: 78px;
+    height: 21px;
+    margin-top: 38px;
+}
+
+.site-navigation li {
+    float: left;
+    margin-top: 43px;
+    color: #0f0101;
+}
+
+.site-navigation a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #0f0101;
+}
+
+.site-navigation {
+    float: right;
+    width: 467px;
+    height: 10px;
+    list-style: none;
+    margin-top: 53px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 11px;
+    font-family: "Open Sans";
+}
+
+.site-navigation a:hover {
+    color: #1abc9c;
+}
+
+.site-navigation a:focus {
+    color: #1abc9c;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.section-title {
+    display: block;
+    height: 73px;
+    color: #515151;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.96px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 92px;
+    margin-top: 111px;
+}
+
+.section-title::after {
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    content: '';
+    margin: 0 auto;
+    margin-top: 34px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cart {
+    width: 255px;
+    height: 322px;
+    float: left;
+    background: #e9f0fd;
+    cursor: pointer;
+}
+
+.cart-img-wrp {
+    overflow: hidden;
+    height: 283px;
+    line-height: 283px;
+    text-align: center;
+}
+
+.cart-img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.cart-text-wrp {
+    height: calc(322px - 283px);
+    line-height: calc(322px - 283px);
+    background: #323232;
+    overflow: hidden;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+
+.cart-title {
+    padding-left: 14px;
+}
+
+.cart-price {
+    float: right;
+    background: #8c8c8c;
+    padding: 0 12px;
+    transition-duration: 0.3s;
+}
+
+.cart:hover .cart-text-wrp {
+    background: #1abc9c;
+}
+
+.cart:hover .cart-price {
+    background: #7fd9c7;
+}
+
+.cart {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.title2 {
+    display: block;
+    height: 73px;
+    color: #555252;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.96px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 82px;
+    margin-top: 86px;
+}
+
+.title2::after {
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    content: '';
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.text {
+    width: 301px;
+    height: 44px;
+    color: #555252;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+}
+
+.text2 {
+    width: 350px;
+    height: 66px;
+    color: #555252;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.28px;
+    margin-top: 29px;
+}
+
+.text::after {
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    content: '';
+    margin-top: 11px;
+}
+
+.blog-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.blog-item {
+    float: left;
+    width: 351px;
+    height: 496px;
+}
+
+.blog-item:not( :nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.bt {
+    float: left;
+}
+
+.btn {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 26px;
+    font-family: "Open Sans";
+    width: 160px;
+    height: 51px;
+    margin-bottom: 46px;
+    background-color: #4ec6ab;
+    border: 1px solid white;
+    letter-spacing: -0.32px;
+}
+
+.btn:not( :nth-child(3n)) {
+    margin-right: 220px;
+}
