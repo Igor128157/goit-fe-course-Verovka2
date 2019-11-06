@@ -8,13 +8,9 @@ html {
     box-sizing: inherit
 }
 
-body {
+.wrapper {
     width: 1170px;
     margin: 0 auto;
-}
-
-.page-header {
-    width: 1170px;
 }
 
 .site-logo {
@@ -39,7 +35,6 @@ body {
 .site-navigation {
     float: right;
     width: 467px;
-    height: 10px;
     list-style: none;
     margin-top: 53px;
     margin: 0;
